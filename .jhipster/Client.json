@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "changelogDate": "20240517165119",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "client",
+  "fields": [
+    {
+      "fieldName": "profession",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Client",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "extraUser",
+      "ownerSide": true,
+      "relationshipName": "extraUser",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "reclamation",
+      "otherEntityRelationshipName": "client",
+      "relationshipName": "reclamation",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "appelCommande",
+      "otherEntityRelationshipName": "client",
+      "relationshipName": "appelCommande",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

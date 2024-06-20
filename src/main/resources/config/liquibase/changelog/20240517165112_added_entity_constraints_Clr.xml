@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd">
+    <!--
+        Added the constraints for entity Clr.
+    -->
+    <changeSet id="20240517165112-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="appel_commande_id"
+                                 baseTableName="clr"
+                                 constraintName="fk_clr__appel_commande_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="appel_commande"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20240517165112",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "clr",
+  "fields": [
+    {
+      "fieldName": "constructeurAutomobile",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modelVoiture",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "anneeVoiture",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "etatPneu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "dateProduction",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Clr",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "appelCommande",
+      "ownerSide": true,
+      "relationshipName": "appelCommande",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

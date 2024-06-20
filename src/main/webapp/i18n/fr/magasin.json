@@ -1,0 +1,28 @@
+{
+  "sifApp": {
+    "magasin": {
+      "home": {
+        "title": "Magasins",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Magasin",
+        "createOrEditLabel": "Créer ou éditer un Magasin",
+        "notFound": "Aucun Magasin trouvé"
+      },
+      "created": "Un nouveau Magasin a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Magasin avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Magasin avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Magasin {{ id }} ?"
+      },
+      "detail": {
+        "title": "Magasin"
+      },
+      "id": "ID",
+      "codeMagasin": "Code Magasin",
+      "pays": "Pays",
+      "address": "Address",
+      "magasinier": "Magasinier",
+      "etatStock": "Etat Stock"
+    }
+  }
+}

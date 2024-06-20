@@ -1,0 +1,27 @@
+{
+  "sifApp": {
+    "coe": {
+      "home": {
+        "title": "Coes",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Coe",
+        "createOrEditLabel": "Créer ou éditer un Coe",
+        "notFound": "Aucun Coe trouvé"
+      },
+      "created": "Un nouveau Coe a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Coe avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Coe avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Coe {{ id }} ?"
+      },
+      "detail": {
+        "title": "Coe"
+      },
+      "id": "ID",
+      "typeVoiture": "Type Voiture",
+      "poidsVoiture": "Poids Voiture",
+      "vitesseVoiture": "Vitesse Voiture",
+      "appelCommande": "Appel Commande"
+    }
+  }
+}

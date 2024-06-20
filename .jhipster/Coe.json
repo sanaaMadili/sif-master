@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20240517165113",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "coe",
+  "fields": [
+    {
+      "fieldName": "typeVoiture",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "poidsVoiture",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "vitesseVoiture",
+      "fieldType": "Double"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Coe",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "appelCommande",
+      "ownerSide": true,
+      "relationshipName": "appelCommande",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

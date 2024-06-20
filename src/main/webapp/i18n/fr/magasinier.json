@@ -1,0 +1,26 @@
+{
+  "sifApp": {
+    "magasinier": {
+      "home": {
+        "title": "Magasiniers",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Magasinier",
+        "createOrEditLabel": "Créer ou éditer un Magasinier",
+        "notFound": "Aucun Magasinier trouvé"
+      },
+      "created": "Un nouveau Magasinier a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Magasinier avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Magasinier avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Magasinier {{ id }} ?"
+      },
+      "detail": {
+        "title": "Magasinier"
+      },
+      "id": "ID",
+      "profession": "Profession",
+      "extraUser": "Extra User",
+      "magasin": "Magasin"
+    }
+  }
+}

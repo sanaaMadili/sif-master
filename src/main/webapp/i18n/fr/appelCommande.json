@@ -1,0 +1,32 @@
+{
+  "sifApp": {
+    "appelCommande": {
+      "home": {
+        "title": "AppelCommandes",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Appel Commande",
+        "createOrEditLabel": "Créer ou éditer un Appel Commande",
+        "notFound": "Aucun Appel Commande trouvé"
+      },
+      "created": "Un nouveau Appel Commande a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Appel Commande avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Appel Commande avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Appel Commande {{ id }} ?"
+      },
+      "detail": {
+        "title": "Appel Commande"
+      },
+      "id": "ID",
+      "numCommande": "Num Commande",
+      "dateCommande": "Date Commande",
+      "dateLivraison": "Date Livraison",
+      "dateExpedition": "Date Expedition",
+      "status": "Status",
+      "annomalie": "Annomalie",
+      "reception": "Reception",
+      "client": "Client",
+      "ligneCommande": "Ligne Commande"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "applications": "*",
+  "changelogDate": "20240517165114",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "ligne_commande",
+  "fields": [
+    {
+      "fieldName": "qte",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "LigneCommande",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "article",
+      "otherEntityRelationshipName": "ligneCommande",
+      "relationshipName": "article",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "appelCommande",
+      "otherEntityRelationshipName": "ligneCommande",
+      "relationshipName": "appelCommande",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

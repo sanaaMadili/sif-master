@@ -1,0 +1,54 @@
+{
+  "applications": "*",
+  "changelogDate": "20240517165115",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "article",
+  "fields": [
+    {
+      "fieldName": "cai",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "refPneu",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "typePneu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "valeur",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "image",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image"
+    },
+    {
+      "fieldName": "devise",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Article",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "etatStock",
+      "otherEntityRelationshipName": "article",
+      "relationshipName": "etatStock",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "ligneCommande",
+      "otherEntityRelationshipName": "article",
+      "relationshipName": "ligneCommande",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

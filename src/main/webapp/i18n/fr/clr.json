@@ -1,0 +1,30 @@
+{
+  "sifApp": {
+    "clr": {
+      "home": {
+        "title": "Clrs",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Clr",
+        "createOrEditLabel": "Créer ou éditer un Clr",
+        "notFound": "Aucun Clr trouvé"
+      },
+      "created": "Un nouveau Clr a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Clr avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Clr avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Clr {{ id }} ?"
+      },
+      "detail": {
+        "title": "Clr"
+      },
+      "id": "ID",
+      "constructeurAutomobile": "Constructeur Automobile",
+      "modelVoiture": "Model Voiture",
+      "anneeVoiture": "Annee Voiture",
+      "etatPneu": "Etat Pneu",
+      "image": "Image",
+      "dateProduction": "Date Production",
+      "appelCommande": "Appel Commande"
+    }
+  }
+}

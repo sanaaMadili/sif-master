@@ -1,0 +1,27 @@
+{
+  "sifApp": {
+    "etatStock": {
+      "home": {
+        "title": "EtatStocks",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Etat Stock",
+        "createOrEditLabel": "Créer ou éditer un Etat Stock",
+        "notFound": "Aucun Etat Stock trouvé"
+      },
+      "created": "Un nouveau Etat Stock a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Etat Stock avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Etat Stock avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Etat Stock {{ id }} ?"
+      },
+      "detail": {
+        "title": "Etat Stock"
+      },
+      "id": "ID",
+      "qte": "Qte",
+      "location": "Location",
+      "article": "Article",
+      "magasin": "Magasin"
+    }
+  }
+}

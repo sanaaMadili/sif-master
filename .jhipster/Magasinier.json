@@ -1,0 +1,34 @@
+{
+  "applications": "*",
+  "changelogDate": "20240517165120",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "magasinier",
+  "fields": [
+    {
+      "fieldName": "profession",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Magasinier",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "extraUser",
+      "ownerSide": true,
+      "relationshipName": "extraUser",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "magasin",
+      "otherEntityRelationshipName": "magasinier",
+      "ownerSide": true,
+      "relationshipName": "magasin",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

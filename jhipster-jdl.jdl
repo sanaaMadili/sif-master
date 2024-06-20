@@ -1,0 +1,109 @@
+entity User {
+}
+
+entity AppelCommande {
+   numCommande Integer
+   dateCommande LocalDate
+   dateLivraison LocalDate
+   dateExpedition LocalDate
+   status Integer
+   annomalie Integer
+}
+
+entity Clr {
+  constructeurAutomobile String
+  modelVoiture String
+  anneeVoiture Integer
+  etatPneu String
+  image ImageBlob
+  dateProduction LocalDate
+}
+
+entity Coe {
+  typeVoiture String
+  poidsVoiture Double
+  vitesseVoiture Double
+}
+
+entity LigneCommande {
+  qte Integer
+}
+
+entity Article {
+  cai Integer
+  refPneu Double
+  typePneu String
+  valeur Double
+  image ImageBlob
+  devise String
+}
+
+entity Magasin {
+  codeMagasin Integer
+  pays String
+  address String
+}
+entity Reception {
+  pays String
+  address String
+}
+entity ExtraUser {
+  cin String
+  image ImageBlob
+  numeroTelephone Double
+  dateNaissance LocalDate
+  adresse String
+  pays String
+}
+
+entity Client {
+  profession String
+  
+}
+entity Magasinier {
+  profession String
+  
+}
+
+entity EtatStock {
+  qte Integer
+  location String
+  
+}
+
+entity Reclamation {
+  date String
+  pieceJointe ImageBlob
+  raison String
+}
+
+relationship OneToOne {
+  Clr{AppelCommande} to AppelCommande
+  Coe{AppelCommande} to AppelCommande
+
+}
+relationship OneToOne {
+  Client{ExtraUser} to ExtraUser
+  Magasinier{ExtraUser} to ExtraUser
+  ExtraUser{user} to User{User}
+  Magasinier{Magasin} to Magasin{Magasinier}
+}
+relationship OneToMany {
+  Reception to AppelCommande
+}
+
+relationship OneToMany {
+   Client{Reclamation} to Reclamation{Client}
+}
+relationship OneToMany {
+   Client to AppelCommande
+}
+relationship ManyToOne {
+  EtatStock{Article} to Article{EtatStock}
+  EtatStock{Magasin} to Magasin{EtatStock}
+}
+relationship ManyToOne {
+  LigneCommande{Article} to Article{LigneCommande}
+  LigneCommande{AppelCommande} to AppelCommande{LigneCommande}
+}
+paginate all with pagination

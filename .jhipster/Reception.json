@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20240517165117",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "reception",
+  "fields": [
+    {
+      "fieldName": "pays",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Reception",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "appelCommande",
+      "otherEntityRelationshipName": "reception",
+      "relationshipName": "appelCommande",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

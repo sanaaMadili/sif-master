@@ -1,0 +1,59 @@
+{
+  "applications": "*",
+  "changelogDate": "20240517165111",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "appel_commande",
+  "fields": [
+    {
+      "fieldName": "numCommande",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "dateCommande",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateLivraison",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateExpedition",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "annomalie",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AppelCommande",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "reception",
+      "otherEntityRelationshipName": "appelCommande",
+      "relationshipName": "reception",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "client",
+      "otherEntityRelationshipName": "appelCommande",
+      "relationshipName": "client",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "ligneCommande",
+      "otherEntityRelationshipName": "appelCommande",
+      "relationshipName": "ligneCommande",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

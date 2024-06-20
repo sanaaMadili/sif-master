@@ -1,0 +1,30 @@
+{
+  "sifApp": {
+    "extraUser": {
+      "home": {
+        "title": "ExtraUsers",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Extra User",
+        "createOrEditLabel": "Créer ou éditer un Extra User",
+        "notFound": "Aucun Extra User trouvé"
+      },
+      "created": "Un nouveau Extra User a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Extra User avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Extra User avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Extra User {{ id }} ?"
+      },
+      "detail": {
+        "title": "Extra User"
+      },
+      "id": "ID",
+      "cin": "Cin",
+      "image": "Image",
+      "numeroTelephone": "Numero Telephone",
+      "dateNaissance": "Date Naissance",
+      "adresse": "Adresse",
+      "pays": "Pays",
+      "user": "User"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+/* login-modal.css */
+
+  
+  .login-logo {
+    max-width: 100px; /* Ajustez la taille selon vos besoins */
+    border-radius: 50%; /* Si vous souhaitez rendre l'image ronde */
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  

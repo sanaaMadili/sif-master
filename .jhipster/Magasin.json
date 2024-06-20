@@ -1,0 +1,42 @@
+{
+  "applications": "*",
+  "changelogDate": "20240517165116",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "magasin",
+  "fields": [
+    {
+      "fieldName": "codeMagasin",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "pays",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Magasin",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "magasinier",
+      "otherEntityRelationshipName": "magasin",
+      "ownerSide": false,
+      "relationshipName": "magasinier",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "etatStock",
+      "otherEntityRelationshipName": "magasin",
+      "relationshipName": "etatStock",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,79 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+.hipster {
+  display: inline-block;
+  width: 100%;
+  height: 497px;
+  background: url('../../../content/images/jhipster_family_member_2.svg') no-repeat center top;
+  background-size: contain;
+}
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.dashboard-item {
+  flex: 1 1 calc(33.333% - 1rem);
+  margin: 0.5rem;
+  padding: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.dashboard-item .count {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-item .title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-item .link {
+  color: white;
+  text-decoration: underline;
+}
+.user-homepage {
+  .background-image {
+    background-image: url('https://img.lamontagne.fr/wW33QW8E3o7iFgOaEJePwrQqSHksg0eciL9xcfBx934/fit/657/438/sm/0/bG9jYWw6Ly8vMDAvMDAvMDYvMzIvNzgvMjAwMDAwNjMyNzg5MA.jpg');
+    background-size: cover; // Reduit l'image à 95% de sa taille cover normale
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(44, 59, 216);
+    padding: 10px;
+
+    .welcome-message {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .alert-link {
+      color: #ffcc00;
+      font-weight: bold;
+    }
+  }
+}
+
+
+.bg-blue { background-color: #17a2b8; }
+.bg-green { background-color: #28a745; }
+.bg-red { background-color: #dc3545; }
+.bg-purple { background-color: #6f42c1; }
+.bg-yellow { background-color: #ffc107; }
+.bg-gray { background-color: #6c757d; }

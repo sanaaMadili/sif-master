@@ -1,0 +1,26 @@
+{
+  "sifApp": {
+    "reception": {
+      "home": {
+        "title": "Receptions",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Reception",
+        "createOrEditLabel": "Créer ou éditer un Reception",
+        "notFound": "Aucun Reception trouvé"
+      },
+      "created": "Un nouveau Reception a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Reception avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Reception avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Reception {{ id }} ?"
+      },
+      "detail": {
+        "title": "Reception"
+      },
+      "id": "ID",
+      "pays": "Pays",
+      "address": "Address",
+      "appelCommande": "Appel Commande"
+    }
+  }
+}
